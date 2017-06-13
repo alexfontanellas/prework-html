@@ -1,0 +1,70 @@
+
+body {
+  font-style: Helvetica;
+  border-color: rgb(225,232,237);
+  font-size: 24px;
+}
+
+.content-tweet {
+  background: rgb(255,255,255);
+  border: 1px solid rgb(225,232,237);
+  border-radius: 10px;
+  width: 620px;
+  padding: 18px;
+}
+#profile-image{
+  float:left;
+  margin-bottom: 10px;
+}
+.top-items {
+  float:left;
+  padding-left: 25px;
+}
+#username{
+  color: rgb(101,116,127);
+
+}
+span {
+  font-weight: bold;
+}
+
+.follow-button {
+  border: 2px solid rgb(85,172,238);
+  border-radius: 5px;
+  background-color: inherit;
+  color: rgb(85,172,238);
+  font-size: 28px;
+  font-weight:bold;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+  float:right
+}
+
+.tweet{
+  color: rgb(0,0,0);
+  clear:both;
+  margin-bottom: 10px;
+}
+#message {
+  margin-bottom: 2px;
+}
+#time-posted {
+  color: rgb(101,116,127);
+  font-weight: bold;
+}
+.bottom-elements{
+  color: rgb(105,120,130);
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 25px;
+}
+#reply {
+  padding-right: 25px;
+}
+#retweet {
+  padding-right: 5px;
+}
+#favorite {
+  padding-left: 10px;
+}
